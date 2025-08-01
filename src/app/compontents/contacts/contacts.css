@@ -1,0 +1,59 @@
+.frame{
+    min-height: 80vh;
+    color: #2C3E50;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+label {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: 16px;
+  color: #1abc9c;
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.6s ;
+}
+
+input:valid + label {
+  top: -10px;
+  color: #16a085;
+  opacity: 1;
+}
+
+
+
+
+
+
+form{
+    width: 60%;
+}
+
+
+.form-control:focus{
+box-shadow:none !important;
+}
+
+button{
+    background-color: #1abc9c;
+
+    &:hover{
+        background-color: #1abc9c !important;
+    }
+}

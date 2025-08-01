@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #2C3E50 !important;
+}
+
+a{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+    &:hover{
+        color: white;
+    }
+
+    &:focus{
+        color: white !important;
+    }
+}
+
+.navbar-brand{
+    font-size: 32px;
+}
+
+.activeLink{
+    background-color: #1abc9c;
+
+}
+
